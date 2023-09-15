@@ -937,7 +937,7 @@
     (property "Value" "R" (at 119.38 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" (at 115.062 157.48 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 115.062 157.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 157.48 0)
