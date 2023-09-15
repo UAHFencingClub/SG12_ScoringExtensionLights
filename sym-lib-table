@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Project_Library")(type "Legacy")(uri "${KIPRJMOD}/Project_Library.lib")(options "")(descr ""))
-  (lib (name "fencing_sg12_lights-rescue")(type "KiCad")(uri "${KIPRJMOD}/fencing_sg12_lights-rescue.kicad_sym")(options "")(descr ""))
-)
