@@ -2137,7 +2137,7 @@
     (property "Value" "RJ45" (at 63.5 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" (at 64.77 121.285 90)
+    (property "Footprint" "Connector_RJ:RJ45_Ninigi_GE" (at 64.77 121.285 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 64.77 121.285 90)
