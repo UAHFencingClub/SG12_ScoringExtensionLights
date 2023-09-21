@@ -444,7 +444,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "SG12_Scoring_Extension_Breakout.step",
+      "step": "3dmodels/SG12_Scoring_Extension_Breakout.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
