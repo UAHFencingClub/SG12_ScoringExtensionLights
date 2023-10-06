@@ -93,7 +93,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 005d521a-2560-4af0-99f1-e1ea012c0449)
-    (at 181.88 101.175)
+    (at 173.88 98.175)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -165,7 +165,7 @@
 
   (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" (layer "F.Cu")
     (tstamp 04d874cd-3e11-42e6-81a1-5238178800ff)
-    (at 129.1 57.575)
+    (at 121.1 54.575)
     (descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -273,7 +273,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp 09e18b81-e53f-4ca5-9437-3863f77593f5)
-    (at 111.9 76.6 -90)
+    (at 104.25 73.9 -90)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -350,7 +350,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp 12d4adab-5858-4723-8576-cfa2077505e0)
-    (at 198 53)
+    (at 190 50)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -375,7 +375,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 1b9b7b9e-8cc7-4f9f-b446-377b60563d24)
-    (at 107.7775 61.46 -90)
+    (at 100.5 57.82 -90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -467,7 +467,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 1f97e7f2-2bf8-4c5a-b91b-385a5ea502ad)
-    (at 137.86 141.5225)
+    (at 129.86 138.5225)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -559,7 +559,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 23ea9cab-622c-4aa8-93a2-b7c47541748a)
-    (at 116.4425 94.415)
+    (at 108.4425 91.415)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -625,7 +625,7 @@
 
   (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" (layer "F.Cu")
     (tstamp 27eb9b74-538f-4242-9bd5-6df6e2f47906)
-    (at 150.1 57.575)
+    (at 142.1 54.575)
     (descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -733,7 +733,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tstamp 2b169d97-7522-4f52-bb5b-b9b42663c425)
-    (at 175.2 114.275)
+    (at 167.2 111.275)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1049,7 +1049,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 2ec0d215-6217-4014-967a-2d1e20644212)
-    (at 181.24 129.475)
+    (at 173.24 126.475)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1121,7 +1121,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp 2ed4fbf1-2a54-4b0f-bfab-ca9d9ea427c6)
-    (at 108 53)
+    (at 100 50)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -1146,7 +1146,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 31ae5d34-bc7b-466e-b347-827376c3126a)
-    (at 116.7025 68.66)
+    (at 108.7025 65.66)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1212,7 +1212,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 3e3837ad-1212-4a1b-bacd-3c7fdb9596ab)
-    (at 123 103 180)
+    (at 115 100 180)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1284,7 +1284,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp 3f124dbc-beb7-40af-9265-c8462073a12b)
-    (at 193.4 76 90)
+    (at 185.75 73.9 90)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1361,7 +1361,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 444caca3-3d27-45a3-9a9a-92a1f4f50d98)
-    (at 179.62 120.275)
+    (at 171.62 117.275)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1427,7 +1427,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tstamp 4459cf1a-5d76-46dc-812c-7019b80fddcc)
-    (at 169.7 92.275)
+    (at 161.7 89.275)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1743,7 +1743,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 47fb8a6e-3e64-4ecf-a0b8-0f7c8ac407dd)
-    (at 179.62 92.275)
+    (at 171.62 89.275)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1809,7 +1809,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 4b815032-892f-4e70-93c5-68e69cd73f9a)
-    (at 108.3775 89.06 -90)
+    (at 100.5 85.82 -90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1901,7 +1901,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 57aeb3fc-d4ba-4b4f-87cd-dd8aa3735508)
-    (at 108.3775 116.06 -90)
+    (at 100.5 113.82 -90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -1993,7 +1993,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp 590bf5b3-52c7-4017-80dd-f4b40ef5ec5c)
-    (at 196.9225 93.54 90)
+    (at 189.5 90.9 90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2085,7 +2085,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 6457006d-6294-4169-aafc-8eccbb5db351)
-    (at 119.7425 123.515)
+    (at 111.7425 120.515)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2151,7 +2151,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 6ee11d32-5fdd-4f27-9092-e6254eded048)
-    (at 125 77 180)
+    (at 118 75 180)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2223,7 +2223,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tstamp 74b00a9b-ff58-4dfa-891d-da2540c78ba4)
-    (at 131.5225 97.415)
+    (at 123.5225 94.415)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2539,7 +2539,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp 8b9065c0-f506-47d0-8c35-e9fe6eb9131d)
-    (at 193.35 104.65 90)
+    (at 185.75 101.9 90)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2616,7 +2616,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 8d2c767a-9cac-4cbb-9214-dd88b98a3b9f)
-    (at 179.16 75.22)
+    (at 171.16 72.22)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2688,7 +2688,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tstamp 950f5e3c-2b57-4d32-a0f4-9999e83c97b6)
-    (at 176.32 64.975)
+    (at 168.32 61.975)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2754,7 +2754,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Vertical" (layer "F.Cu")
     (tstamp 97ecb95a-0780-4b90-b0cc-e346679b88a2)
-    (at 124.54 130.055 180)
+    (at 116.54 127.055 180)
     (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2826,7 +2826,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp a9da4dac-7a3b-4085-ab92-65074cbcd291)
-    (at 196.9225 122.54 90)
+    (at 189.5 118.9 90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -2918,7 +2918,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp ac1735ee-83c4-4119-a94f-e1dd77bfcc50)
-    (at 148.08 119.815 90)
+    (at 140.08 116.815 90)
     (descr "Through hole straight pin header, 2x08, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x08 2.54mm double row")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -3014,7 +3014,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tstamp b6eeba63-eeda-4c6b-93e1-24ba85f41c0c)
-    (at 196.9225 65.54 90)
+    (at 189.5 62.9 90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -3106,7 +3106,7 @@
 
   (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal" (layer "F.Cu")
     (tstamp b8289391-aa67-434a-b327-6629f3db364f)
-    (at 164 138 180)
+    (at 156 135 180)
     (descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex Mini-Fit_Jr top entryplastic_peg")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -3214,7 +3214,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp b8ba50ba-2c70-4161-b039-1f2bd2b931f4)
-    (at 112 132 -90)
+    (at 104.25 129.9 -90)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -3291,7 +3291,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp bddd1299-4e7d-4b60-96e7-1229064bb254)
-    (at 126.75 137.95)
+    (at 118.75 134.95)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -3368,7 +3368,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tstamp c337f902-29f8-4b2f-a96d-8abeff20cf8e)
-    (at 135.5225 128.415)
+    (at 127.5225 125.415)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -3684,7 +3684,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tstamp cde76a9a-b425-4960-8b05-72eeb692914a)
-    (at 132.0225 73.415)
+    (at 126 71)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -4000,7 +4000,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tstamp e2cca95b-e8ae-40b5-8277-358150ebe39e)
-    (at 178.7 55.275)
+    (at 170.7 52.275)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -4316,7 +4316,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp e7c7a066-a10f-4449-9910-cfc007ba38c8)
-    (at 111.9 103.6 -90)
+    (at 104.25 101.9 -90)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -4393,7 +4393,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp ee41be35-7451-4060-adee-bca530345239)
-    (at 108 143)
+    (at 100 140)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -4418,7 +4418,7 @@
 
   (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" (layer "F.Cu")
     (tstamp f2dc3463-2c4c-473f-b844-c5d4e57ccdc2)
-    (at 174.1175 139.2)
+    (at 166.1175 136.2)
     (descr "8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)")
     (tags "RJ45")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -4498,7 +4498,7 @@
 
   (footprint "MountingHole:MountingHole_3mm" (layer "F.Cu")
     (tstamp f7b0fb16-6062-4ee4-8a57-55da2a2271f1)
-    (at 198 143)
+    (at 190 140)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -4523,7 +4523,7 @@
 
   (footprint "Library:BarrelJack_GCT_DCJ200-10-A_Horizontal" (layer "F.Cu")
     (tstamp fe64a88a-1398-495b-bc40-b346c0c16a77)
-    (at 193.35 133.65 90)
+    (at 185.75 129.9 90)
     (descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
     (tags "connector barrel jack")
     (property "Sheetfile" "SG12_Scoring_Extension_Breakout.kicad_sch")
@@ -4598,21 +4598,21 @@
     )
   )
 
-  (gr_arc (start 198 48) (mid 201.535534 49.464466) (end 203 53)
+  (gr_arc (start 190 45) (mid 193.535534 46.464466) (end 195 50)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 123295c7-b5fe-4bb3-a1b4-6a28430e0773))
-  (gr_arc (start 103 53) (mid 104.464466 49.464466) (end 108 48)
+  (gr_arc (start 95 50) (mid 96.464466 46.464466) (end 100 45)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 57693701-efe8-4a1f-a2cd-a86ddf6a0f01))
-  (gr_line (start 103 143) (end 103 53)
+  (gr_line (start 95 140) (end 95 50)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 8e7b6777-5c1b-453e-8f2f-67e9d84b388d))
-  (gr_arc (start 108 148) (mid 104.464466 146.535534) (end 103 143)
+  (gr_arc (start 100 145) (mid 96.464466 143.535534) (end 95 140)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 95b8abd6-d1df-444c-aa00-ff5682afc745))
-  (gr_line (start 108 48) (end 198 48)
+  (gr_line (start 100 45) (end 190 45)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a587b92d-6488-4fac-b313-a9f5e2cf6ed4))
-  (gr_line (start 198 148) (end 108 148)
+  (gr_line (start 190 145) (end 100 145)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b6fa6b6c-9f6d-4bde-b78e-540bca6f581e))
-  (gr_arc (start 203 143) (mid 201.535534 146.535534) (end 198 148)
+  (gr_arc (start 195 140) (mid 193.535534 143.535534) (end 190 145)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp be20a25a-c0fe-42e8-bdc8-c7f06f85f3b6))
-  (gr_line (start 203 53) (end 203 143)
+  (gr_line (start 195 50) (end 195 140)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e880c7c6-0faf-4ef6-9388-5076cabb9fb0))
 
 )
