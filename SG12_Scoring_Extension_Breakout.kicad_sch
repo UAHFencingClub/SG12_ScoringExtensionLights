@@ -1290,10 +1290,6 @@
     (stroke (width 0) (type default))
     (uuid 39ea178c-6940-4ae7-b096-525ebf98d79d)
   )
-  (wire (pts (xy 69.85 142.24) (xy 71.12 142.24))
-    (stroke (width 0) (type default))
-    (uuid 39ec2d42-2baf-4b59-ba97-4eee96890e55)
-  )
   (wire (pts (xy 30.48 64.77) (xy 38.1 64.77))
     (stroke (width 0) (type default))
     (uuid 3a2b0d30-13b0-4373-ad6e-38a5e5affd1e)
@@ -2122,7 +2118,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 30.48 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0533e7a9-85bc-40ce-8c04-4250f84387ce)
-    (property "Reference" "J6" (at 24.13 84.1756 0)
+    (property "Reference" "PWR3" (at 24.13 84.1756 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 24.13 86.7156 0)
@@ -2140,7 +2136,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J6") (unit 1)
+          (reference "PWR3") (unit 1)
         )
       )
     )
@@ -2149,7 +2145,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 228.6 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05c0220b-97c9-4785-85de-08d76cefe68d)
-    (property "Reference" "J7" (at 228.6 52.07 0)
+    (property "Reference" "BlockG1" (at 224.79 50.8 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 230.2256 52.07 0)
@@ -2167,7 +2163,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J7") (unit 1)
+          (reference "BlockG1") (unit 1)
         )
       )
     )
@@ -2202,7 +2198,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 55.88 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 065fb114-8655-4629-bc39-45ea3a3cf5a2)
-    (property "Reference" "C3" (at 49.53 59.69 90)
+    (property "Reference" "C1" (at 49.53 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C_Polarized" (at 52.07 59.69 90)
@@ -2219,7 +2215,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2228,7 +2224,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 269.24 80.01 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ad1a9f0-d483-4820-bbbd-47a3785e3c73)
-    (property "Reference" "J15" (at 271.78 82.55 90)
+    (property "Reference" "BlockR2" (at 274.32 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 276.86 85.09 90)
@@ -2245,7 +2241,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J15") (unit 1)
+          (reference "BlockR2") (unit 1)
         )
       )
     )
@@ -2254,7 +2250,7 @@
   (symbol (lib_id "power:GND") (at 76.2 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dad7534-90d5-47df-89b7-d861701e1e6e)
-    (property "Reference" "#PWR02" (at 82.55 67.31 0)
+    (property "Reference" "#PWR010" (at 82.55 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 67.31 0)
@@ -2270,7 +2266,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2279,7 +2275,7 @@
   (symbol (lib_id "power:+12V") (at 130.81 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1566b0c0-bfda-47c0-8623-5ecf966ff931)
-    (property "Reference" "#PWR05" (at 134.62 67.31 0)
+    (property "Reference" "#PWR013" (at 134.62 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 127 67.31 0)
@@ -2295,7 +2291,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2304,7 +2300,7 @@
   (symbol (lib_id "power:GND") (at 213.36 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17016d3c-5732-4146-a6c4-756a402d0a01)
-    (property "Reference" "#PWR018" (at 219.71 54.61 0)
+    (property "Reference" "#PWR06" (at 219.71 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 54.61 0)
@@ -2320,7 +2316,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2356,7 +2352,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Top_Bottom") (at 30.48 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25c5febe-0461-4cc3-a040-fb9a10022ad1)
-    (property "Reference" "J18" (at 29.21 50.8 0)
+    (property "Reference" "PWR1" (at 29.21 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Top_Bottom" (at 29.21 49.53 0)
@@ -2379,7 +2375,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J18") (unit 1)
+          (reference "PWR1") (unit 1)
         )
       )
     )
@@ -2388,7 +2384,7 @@
   (symbol (lib_id "power:GND") (at 270.51 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 286d5df1-2ec4-40ee-8a0b-9edc5d0b05f1)
-    (property "Reference" "#PWR022" (at 276.86 67.31 0)
+    (property "Reference" "#PWR020" (at 276.86 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 67.31 0)
@@ -2404,7 +2400,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2413,7 +2409,7 @@
   (symbol (lib_id "power:GND") (at 232.41 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29a60aff-2ef7-42a8-8a68-3f5451e6c3d9)
-    (property "Reference" "#PWR019" (at 238.76 67.31 0)
+    (property "Reference" "#PWR018" (at 238.76 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 67.31 0)
@@ -2429,7 +2425,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2438,7 +2434,7 @@
   (symbol (lib_id "power:GND") (at 194.31 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bee7abf-8f6e-424f-a2bd-18d8dcd7f537)
-    (property "Reference" "#PWR08" (at 200.66 67.31 0)
+    (property "Reference" "#PWR016" (at 200.66 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 67.31 0)
@@ -2454,7 +2450,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2463,8 +2459,8 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 111.76 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 319a1632-0017-42c4-a792-3698efa90a01)
-    (property "Reference" "J3" (at 110.8456 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Reference" "Red1" (at 112.1156 50.8 90)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 113.3856 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -2481,7 +2477,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J3") (unit 1)
+          (reference "Red1") (unit 1)
         )
       )
     )
@@ -2516,7 +2512,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 231.14 80.01 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34d1da3d-2ae4-420f-8158-ab897cfc8bda)
-    (property "Reference" "J14" (at 233.68 82.55 90)
+    (property "Reference" "BlockG2" (at 236.22 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 228.6 81.28 90)
@@ -2533,7 +2529,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J14") (unit 1)
+          (reference "BlockG2") (unit 1)
         )
       )
     )
@@ -2542,7 +2538,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 114.3 80.01 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 387b7bfc-6e73-4db2-b4e3-df54caa27a2d)
-    (property "Reference" "J11" (at 116.84 82.55 90)
+    (property "Reference" "Red2" (at 118.11 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 111.76 81.28 90)
@@ -2559,7 +2555,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J11") (unit 1)
+          (reference "Red2") (unit 1)
         )
       )
     )
@@ -2595,7 +2591,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Top_Bottom") (at 95.25 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e07e850-60c9-4d35-8ec2-6ca2a13256a7)
-    (property "Reference" "J16" (at 93.98 138.43 0)
+    (property "Reference" "J2" (at 93.98 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Top_Bottom" (at 93.98 137.16 0)
@@ -2618,7 +2614,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J16") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2627,7 +2623,7 @@
   (symbol (lib_id "power:+12V") (at 20.32 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44a7fed6-9ad6-4d1e-b644-5e5b409a7f9a)
-    (property "Reference" "#PWR026" (at 20.32 54.61 0)
+    (property "Reference" "#PWR01" (at 20.32 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 20.32 45.72 0)
@@ -2643,7 +2639,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2652,7 +2648,7 @@
   (symbol (lib_id "power:+12V") (at 170.18 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 456dc6cd-a60a-422f-bd75-4debfd820691)
-    (property "Reference" "#PWR07" (at 173.99 67.31 0)
+    (property "Reference" "#PWR015" (at 173.99 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 166.37 67.31 0)
@@ -2668,7 +2664,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2677,7 +2673,7 @@
   (symbol (lib_id "power:+12V") (at 52.07 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4846b2e1-c41b-4a23-bc2c-713d4fc7d6c0)
-    (property "Reference" "#PWR01" (at 55.88 67.31 0)
+    (property "Reference" "#PWR09" (at 55.88 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 48.26 67.31 0)
@@ -2693,32 +2689,32 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 71.12 142.24 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 69.85 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54617f0a-07ec-4e3e-8265-0ac567f2dd16)
-    (property "Reference" "#PWR016" (at 77.47 142.24 0)
+    (property "Reference" "#PWR024" (at 69.85 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 74.93 142.24 0)
+    (property "Value" "GND" (at 69.85 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 71.12 142.24 0)
+    (property "Footprint" "" (at 69.85 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 71.12 142.24 0)
+    (property "Datasheet" "" (at 69.85 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3ace01d4-7e75-4f91-bd4e-8a6dc633db2f))
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2753,7 +2749,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 59.69 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 570dd1e6-bc53-4bf3-911c-b283e4ee4b1e)
-    (property "Reference" "J8" (at 60.96 110.49 0)
+    (property "Reference" "J1" (at 60.96 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x08_Odd_Even" (at 60.96 113.03 0)
@@ -2784,7 +2780,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J8") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2819,7 +2815,7 @@
   (symbol (lib_id "power:GND") (at 57.15 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 598c1add-544a-4e28-9fa1-717c749c4c5b)
-    (property "Reference" "#PWR015" (at 63.5 54.61 0)
+    (property "Reference" "#PWR02" (at 63.5 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 54.61 0)
@@ -2835,7 +2831,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2844,7 +2840,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 27.94 73.66 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67a04358-ff23-4285-aaff-3ab1ea0a5b99)
-    (property "Reference" "J19" (at 30.48 76.2 90)
+    (property "Reference" "PWR2" (at 30.48 76.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 25.4 74.93 90)
@@ -2861,7 +2857,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J19") (unit 1)
+          (reference "PWR2") (unit 1)
         )
       )
     )
@@ -2870,7 +2866,7 @@
   (symbol (lib_id "power:GND") (at 102.87 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a034d8f-bcac-4b44-804e-d7cb261c917a)
-    (property "Reference" "#PWR024" (at 102.87 157.48 0)
+    (property "Reference" "#PWR025" (at 102.87 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 156.21 0)
@@ -2886,7 +2882,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2895,7 +2891,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 153.67 80.01 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e4fb924-d422-4bdd-803e-b0e3bf3e854c)
-    (property "Reference" "J12" (at 156.21 82.55 90)
+    (property "Reference" "WhiteG2" (at 158.75 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 151.13 81.28 90)
@@ -2912,7 +2908,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J12") (unit 1)
+          (reference "WhiteG2") (unit 1)
         )
       )
     )
@@ -2921,7 +2917,7 @@
   (symbol (lib_id "power:GND") (at 115.57 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70f6d0d7-3466-4180-937e-5773cb25462e)
-    (property "Reference" "#PWR04" (at 121.92 67.31 0)
+    (property "Reference" "#PWR012" (at 121.92 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 67.31 0)
@@ -2937,7 +2933,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2973,7 +2969,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 74.93 80.01 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74f809bb-dd54-48b2-9218-9173851450e6)
-    (property "Reference" "J10" (at 77.47 82.55 90)
+    (property "Reference" "Green2" (at 80.01 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 72.39 81.28 90)
@@ -2990,7 +2986,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J10") (unit 1)
+          (reference "Green2") (unit 1)
         )
       )
     )
@@ -3025,7 +3021,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 193.04 80.01 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81229c45-d460-48a6-8530-401ebe04e933)
-    (property "Reference" "J13" (at 195.58 82.55 90)
+    (property "Reference" "WhiteR2" (at 198.12 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 190.5 81.28 90)
@@ -3042,7 +3038,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J13") (unit 1)
+          (reference "WhiteR2") (unit 1)
         )
       )
     )
@@ -3051,7 +3047,7 @@
   (symbol (lib_id "power:GND") (at 96.52 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82756cf2-5463-4d6b-97c4-e780aeace155)
-    (property "Reference" "#PWR014" (at 102.87 54.61 0)
+    (property "Reference" "#PWR03" (at 102.87 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 54.61 0)
@@ -3067,7 +3063,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3103,7 +3099,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 134.62 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86bd92ec-9978-4440-ba22-d1bf24841b27)
-    (property "Reference" "C1" (at 128.27 59.69 90)
+    (property "Reference" "C3" (at 128.27 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C_Polarized" (at 130.81 59.69 90)
@@ -3120,7 +3116,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3129,7 +3125,7 @@
   (symbol (lib_id "power:GND") (at 175.26 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a68f077-cb64-4762-bcda-ba0466e2ec98)
-    (property "Reference" "#PWR012" (at 181.61 54.61 0)
+    (property "Reference" "#PWR05" (at 181.61 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 54.61 0)
@@ -3145,7 +3141,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3154,7 +3150,7 @@
   (symbol (lib_id "power:+12V") (at 91.44 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a9c99f2-c600-4956-9ad1-23c1d9275564)
-    (property "Reference" "#PWR03" (at 95.25 67.31 0)
+    (property "Reference" "#PWR011" (at 95.25 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 87.63 67.31 0)
@@ -3170,7 +3166,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3179,7 +3175,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x04_Top_Bottom") (at 129.54 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e595d5e-1a62-4912-a092-47f3120421f9)
-    (property "Reference" "J17" (at 128.27 138.43 0)
+    (property "Reference" "J3" (at 128.27 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x04_Top_Bottom" (at 128.27 137.16 0)
@@ -3202,7 +3198,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J17") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3211,7 +3207,7 @@
   (symbol (lib_id "power:+12V") (at 246.38 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93e70349-a67d-491a-915a-8e7d8a0822fc)
-    (property "Reference" "#PWR020" (at 250.19 67.31 0)
+    (property "Reference" "#PWR019" (at 250.19 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 242.57 67.31 0)
@@ -3227,7 +3223,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3262,7 +3258,7 @@
   (symbol (lib_id "power:GND") (at 154.94 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96462e7f-f740-44ba-9748-87d789ac565e)
-    (property "Reference" "#PWR06" (at 161.29 67.31 0)
+    (property "Reference" "#PWR014" (at 161.29 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 67.31 0)
@@ -3278,7 +3274,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3313,7 +3309,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 190.5 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f846f9a-c18d-4978-a5a7-4e26c6e7f0d5)
-    (property "Reference" "J5" (at 190.5 52.07 0)
+    (property "Reference" "WhiteR1" (at 186.69 50.8 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 192.1256 52.07 0)
@@ -3331,7 +3327,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J5") (unit 1)
+          (reference "WhiteR1") (unit 1)
         )
       )
     )
@@ -3366,7 +3362,7 @@
   (symbol (lib_id "power:GND") (at 39.37 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa5dce38-1c8a-4f70-bea1-f93fd915d727)
-    (property "Reference" "#PWR010" (at 39.37 95.25 0)
+    (property "Reference" "#PWR022" (at 39.37 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 93.98 0)
@@ -3382,17 +3378,17 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 151.13 58.42 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ad4364a8-8d82-4ce8-a59e-1885bd85c055)
-    (property "Reference" "J4" (at 150.2156 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Reference" "WhiteG1" (at 151.13 50.8 90)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 152.7556 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -3409,7 +3405,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J4") (unit 1)
+          (reference "WhiteG1") (unit 1)
         )
       )
     )
@@ -3445,8 +3441,8 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 72.39 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7c6c5c4-0868-4842-9ba8-13eda9296e69)
-    (property "Reference" "J2" (at 71.4756 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Reference" "Green1" (at 72.7456 50.8 90)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 74.0156 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -3463,7 +3459,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J2") (unit 1)
+          (reference "Green1") (unit 1)
         )
       )
     )
@@ -3472,7 +3468,7 @@
   (symbol (lib_id "power:+12V") (at 39.37 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9818e42-f9fb-4641-b5cc-48d46c0eed84)
-    (property "Reference" "#PWR09" (at 39.37 85.09 0)
+    (property "Reference" "#PWR021" (at 39.37 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 39.37 76.2 0)
@@ -3488,7 +3484,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3523,7 +3519,7 @@
   (symbol (lib_id "power:+12V") (at 44.45 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c978317e-bd6b-4576-a4b1-ded315eed735)
-    (property "Reference" "#PWR011" (at 48.26 142.24 0)
+    (property "Reference" "#PWR023" (at 48.26 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 40.64 142.24 0)
@@ -3539,7 +3535,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3548,7 +3544,7 @@
   (symbol (lib_id "power:GND") (at 251.46 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d32b4a89-be80-412c-a653-a0cfb64d24f1)
-    (property "Reference" "#PWR021" (at 257.81 54.61 0)
+    (property "Reference" "#PWR07" (at 257.81 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 54.61 0)
@@ -3564,7 +3560,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3599,7 +3595,7 @@
   (symbol (lib_id "power:GND") (at 38.1 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4d69d45-f8e8-4bc0-979c-e03f9bf97c54)
-    (property "Reference" "#PWR025" (at 38.1 72.39 0)
+    (property "Reference" "#PWR08" (at 38.1 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 71.12 0)
@@ -3615,7 +3611,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3624,7 +3620,7 @@
   (symbol (lib_id "Connector:RJ45") (at 27.94 124.46 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddb706c6-7c8c-493d-9008-d106122acbc4)
-    (property "Reference" "J1" (at 29.21 140.97 90)
+    (property "Reference" "SIG1" (at 29.21 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45" (at 26.67 140.97 90)
@@ -3647,7 +3643,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J1") (unit 1)
+          (reference "SIG1") (unit 1)
         )
       )
     )
@@ -3656,7 +3652,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 266.7 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0c324ec-6e65-4349-abb8-079e1abbffa6)
-    (property "Reference" "J9" (at 266.7 52.07 0)
+    (property "Reference" "BlockR1" (at 262.89 50.8 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 268.3256 52.07 0)
@@ -3674,7 +3670,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "J9") (unit 1)
+          (reference "BlockR1") (unit 1)
         )
       )
     )
@@ -3683,7 +3679,7 @@
   (symbol (lib_id "power:GND") (at 137.16 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f180cb32-ed27-4180-afce-a61d7ea3b8ab)
-    (property "Reference" "#PWR023" (at 137.16 157.48 0)
+    (property "Reference" "#PWR026" (at 137.16 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 156.21 0)
@@ -3699,7 +3695,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3733,7 +3729,7 @@
   (symbol (lib_id "power:GND") (at 135.89 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f882e2e9-6ca5-42c0-9b45-110a92d8e2d6)
-    (property "Reference" "#PWR013" (at 142.24 54.61 0)
+    (property "Reference" "#PWR04" (at 142.24 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 54.61 0)
@@ -3749,7 +3745,7 @@
     (instances
       (project "SG12_Scoring_Extension_Breakout"
         (path "/d3a18a1f-0030-40cf-934c-0abb5a098964"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
