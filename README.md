@@ -6,6 +6,6 @@ You can view the mirror on [CADLAB.io](https://cadlab.io/project/27194/main/file
 ![Image of 3D PCB Rendering](pcb_3d_view.png)
 
 # Get PCBs
-**Disclaimer: When using this link, PCBWay will donate 10% PCB and PCB assembly cost to [me](https://github.com/QuantumEF)**
+**Disclaimer: If ordering through their site, PCBWay will "donate 10% PCB and PCB assembly cost to" [me](https://github.com/QuantumEF)**
 
 <a href="https://www.pcbway.com/project/shareproject/SG12_ScoringExtensionLights_36ba9fa8.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
