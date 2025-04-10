@@ -28,4 +28,7 @@ fp-info-cache
 *.xml
 *.csv
 
+# Draw.io
+*.bkp
+
 manufacturing/
