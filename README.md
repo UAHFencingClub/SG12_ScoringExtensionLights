@@ -4,7 +4,11 @@ A module for the [SG12 fencing scoring machine](https://www.blue-gauntlet.com/SG
 
 You can view the mirror on [CADLAB.io](https://cadlab.io/project/27194/main/files) if you want to see the schematic. < Needs to be updated, not sure why mirroring is not working.
 
-![Image of 3D PCB Rendering](pcb_3d_view.png)
+![Image of 3D PCB Rendering](images/pcb_3d_view.png)
+
+![Deployed Extension Lights](images/deployed.jpg)
+
+![Closeup](images/pretty_closeup.jpg)
 
 # Wiring Diagram
 
